@@ -1,1 +1,40 @@
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f4ff;
+  font-family: Arial;
+}
 
+.menu {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #4a6cff;
+  color: white;
+  cursor: pointer;
+}
+
+.settings {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.status {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
